@@ -1,0 +1,11 @@
+{
+  "name":"desyatka-oge-trainer",
+  "version":"1.0.0",
+  "private":true,
+  "description":"ОГЭ по информатике, задания 1–10: строгий режим и отчёты учителю",
+  "scripts":{
+    "check":"node --check js/tasks.js && node --check js/core.js && node --check js/view.js && node --check js/app.js && node --check js/teacher.js",
+    "test":"node --test tests/*.test.cjs"
+  },
+  "engines":{"node":">=20"}
+}
